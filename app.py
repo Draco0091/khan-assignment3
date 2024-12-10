@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_ecs():
     # Response message
-    return 'Hello from Khan ECS Container!'
+    return 'Hello from Khan ECS Container!updated version'
 
 # Main entry point
 if __name__ == '__main__':
